@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="tl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="calculator-container">
+        <div class="display">
+            <button class="history-btn">&#8634;</button>
+            <span id="display-text">0</span>
+
+        </div>
+
+
+
+        <div class="buttons-grid">
+            <button class="btn light-blue" xx="addChar('(')">(</button>
+            <button class="btn light-blue" xx="addChar(')')">)</button>
+            <button class="btn light-blue" xx="addChar('%')">%</button>
+            <button class="btn light-blue" xx="clearAll()">AC</button>
+
+            <button class="btn light-gray" xx="addChar('7')">7</button>
+            <button class="btn light-gray" xx="addChar('8')">8</button>
+            <button class="btn light-gray" xx="addChar('9')">9</button>
+            <button class="btn light-blue" xx="addChar('/')">÷</button>
+
+
+
+            <button class="btn light-gray" xx="addChar('4')">4</button>
+            <button class="btn light-gray" xx="addChar('5')">5</button>
+            <button class="btn light-gray" xx="addChar('6')">6</button>
+            <button class="btn light-blue" xx="addChar('*')">×</button>
+
+
+
+            <button class="btn light-gray" xx="addChar('1')">1</button>
+
+            <button class="btn light-gray" xx="addChar('2')">2</button>
+
+            <button class="btn light-gray" xx="addChar('3')">3</button>
+
+            <button class="btn light-blue" xx="addChar('-')">-</button>
+
+
+
+            <button class="btn light-gray" xx="addChar('0')">0</button>
+
+            <button class="btn light-gray" xx="addChar('.')">.</button>
+
+            <button class="btn dark-blue" xx="computeResult()">=</button>
+
+            <button class="btn light-blue" xx="addChar('+')">+</button>
+
+        </div>
+
+
+
+        <div class="bottom-bar">
+            <button class="bottom-btn active">123</button>
+            <button class="bottom-btn">Fx</button>
+        </div>
+    </div>
+
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>
+
